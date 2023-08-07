@@ -1,0 +1,16 @@
+#!/bin/bash
+
+file="$1"
+txt="$2"
+touch $file
+echo "#!/bin/bash" > $file
+echo $txt >> $file
+
+
+chmod +x $file
+
+git add $file
+
+git commit -m "$file"
+
+git push
