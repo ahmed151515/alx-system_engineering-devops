@@ -1,2 +1,2 @@
 #!/bin/bash
-export PASH="$PASH:/action"
+export PATH="$PATH:/action"
