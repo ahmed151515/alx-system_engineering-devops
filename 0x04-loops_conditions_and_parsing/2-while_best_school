@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#do my workh
+i=0
+while ((i<10)); do 
+	echo "Best School"
+	((i++))
+done
