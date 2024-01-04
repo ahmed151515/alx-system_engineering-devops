@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# solve task
+nc -l -p 98
