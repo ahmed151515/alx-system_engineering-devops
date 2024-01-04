@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# solve task
+netstat -l -p
