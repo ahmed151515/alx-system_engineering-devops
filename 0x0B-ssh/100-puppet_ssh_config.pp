@@ -1,10 +1,10 @@
 # solev task
-file {/etc/ssh/ssh_config:
+file {'/etc/ssh/ssh_config':
   ensure => present,
 }
 
 file_line {'Turn off passwd auth':
-path      => /etc/ssh/ssh_config,
+path      => '/etc/ssh/ssh_config',
 file_line => 'PasswordAuthentication no',
 match     => '^#PasswordAuthentication',
 }
