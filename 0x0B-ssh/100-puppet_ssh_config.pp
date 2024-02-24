@@ -1,5 +1,5 @@
 # solev task
-file {/etc/ssh/'ssh_config':
+file {/etc/ssh/ssh_config:
   ensure => present,
 }
 
