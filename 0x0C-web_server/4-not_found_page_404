@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# solve task
+apt-get install -y nginx 
+echo "Hello World!" > /var/www/html
+service nginx restart
