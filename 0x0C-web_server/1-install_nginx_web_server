@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # solve task
+sudo su
 
 apt-get install nginx -y
 
