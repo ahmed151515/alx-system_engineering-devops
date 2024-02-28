@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# solve task
+sudo apt-get -y install nginx
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+
+r="\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
+
+sed -i "53s|.*|$r|" /etc/nginx/sites-enabled/default
+
+/etc/init.d/nginx restart
