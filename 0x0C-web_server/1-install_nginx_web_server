@@ -13,6 +13,6 @@ sudo chmod -R 755 /var/www
 
 cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
 
-echo "<!DOCTYPE html><html><body><h1>Hello World!</h1></body></html>" > /var/www/html/index.nginx-debian.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
 sudo service nginx restart
