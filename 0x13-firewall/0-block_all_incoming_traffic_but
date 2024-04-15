@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 #solve task
 
-apt install ufw
+sudo apt install ufw
 
-ufw default  deny incoming
+sudo ufw default  deny incoming
 
-ufw  default allow outgoing
+sudo ufw  default allow outgoing
 
-ufw allow 22
-ufw allow 80
-ufw allow 443
-
-ufw enable
+sudo ufw allow 22
+sudo ufw allow 80
+sudo ufw allow 443
+sudo ufw enable
