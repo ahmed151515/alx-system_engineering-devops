@@ -3,4 +3,4 @@
 
 sudo echo 1 > /proc/sys/net/ipv4/ip_forward
 
-sudo ufw route allow proto tcp from any to any port 80
+sudo ufw route allow proto tcp from any to any port 8080
