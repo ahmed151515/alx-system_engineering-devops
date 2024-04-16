@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#solve task
+
+sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+
+sudo ufw route allow from any port 8080 to 127.0.0.1 port 80
