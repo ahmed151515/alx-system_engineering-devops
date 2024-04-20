@@ -47,8 +47,8 @@ frontend https_http
         timeout client 120s
 
 backend servers
-        server 509802-web1 54.160.121.198:80
-        server 509802-web2 35.153.18.54:80
+        server 509802-web-01 54.160.121.198:80
+        server 509802-web-02 35.153.18.54:80
         mode http
         timeout connect 30s
         timeout server  60s" >> /etc/haproxy/haproxy.cfg
