@@ -17,4 +17,4 @@ if __name__ == "__main__":
 is done with tasks({len(completed_todo)}/{len(todo)}):")
 
     for i in completed_todo:
-        print(f"\t{i.get('title')}")
+        print(f" {i.get('title')}")
