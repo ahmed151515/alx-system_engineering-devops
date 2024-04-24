@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"Employee EMPLOYEE_NAME \
-is done with tasks(NUMBER_OF_DONE_TASKS/TOTAL_NUMBER_OF_TASKS):"
+"""
+solve task
+"""
 
 import requests
 import sys
