@@ -2,7 +2,7 @@
 """_summary_
     """
 from requests import get
-import json
+
 
 
 def top_ten(subreddit):
