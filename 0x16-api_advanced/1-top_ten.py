@@ -4,7 +4,6 @@
 from requests import get
 
 
-
 def top_ten(subreddit):
     header = {'User-agent': 'My-User-Agent'}
 
@@ -16,5 +15,7 @@ def top_ten(subreddit):
     else:
         res = res.json()
         posts = res["data"]["children"]
-        for p in posts:
+        for i, p in enumerate(posts):
+            if i == 0:
+                continue
             print(p["data"]["title"])
